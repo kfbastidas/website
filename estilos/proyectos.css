@@ -1,0 +1,98 @@
+#proyectos {
+  background: #2d3e50;
+}
+
+#barralateral {
+  padding-top: 10px;
+  float: right;
+  width: 20%;
+  background-color: #ffffff;
+  color: black;
+  border-radius: 0.5em;
+  margin-top: 10px;
+  margin-left: 30px;
+  text-decoration: none;
+  text-decoration-skip: none;
+}
+
+#barralateral ul li {
+  font-size: 15px;
+}
+
+#cont {
+  margin-top: 10px;
+}
+
+#articulo1 ul li {
+  list-style: inside;
+}
+
+#pie {
+  margin-top: 40px;
+}
+
+#contenidoPrin {
+  padding-top: 20px;
+  height: 650px;
+  width: 76%;
+  float: left;
+  background-color: #ffffff;
+}
+
+.articulo #titulo {
+  font-size: 25px;
+  color: #d11ab3d3;
+}
+
+#titulo {
+  text-align: center;
+}
+
+.tftable {
+  font-size: 15px;
+  color: #333333;
+  border-width: 1px;
+  border-collapse: collapse;
+  border: 1px;
+  width: 100%;
+}
+
+.tftable th {
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #0f16d8;
+  border-width: 1px;
+  padding: 8px;
+  border-style: solid;
+  text-align: center;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.tftable tr {
+  background-color: #ffffff;
+}
+
+.tftable td {
+  font-size: 15px;
+  border-width: 1px;
+  padding: 8px;
+  border-style: solid;
+  border-color: #729ea5;
+}
+
+.parrafo {
+  font-size: 20px;
+  padding-left: 24px;
+  padding-top: 10px;
+}
+
+.tituloparrafo {
+  font-size: 22px;
+  font-weight: bold;
+  font-size: large;
+}
+
+.articulo {
+  padding: 10px 40px;
+  border-top: 10px;
+}

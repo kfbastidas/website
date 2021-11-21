@@ -1,0 +1,88 @@
+@charset "utf-8";
+/* Documento CSS */
+* {
+  max-width: 97%;
+  margin: auto;
+  margin-top: 0px;
+  box-sizing: border-box;
+}
+#cabecera {
+  margin-top: 10px;
+  font-size: 45px;
+  color: white;
+  background-color: #7d3c98;
+  height: 120px;
+  border-radius: 0.5em 0.5em 0px 0px;
+  text-align: center;
+  text-shadow: black 0.2em 0.2em 0.2em;
+  padding: 30px;
+}
+
+#navegacion {
+  list-style: none;
+  text-align: right;
+  background: #7d3c98;
+  border-radius: 0px 0px 0.8em 0.8em;
+  height: 70px;
+  padding-top: 30px;
+  border: black solid 1px;
+}
+
+#navegacion li a {
+  text-decoration: none;
+  text-shadow: black 0.1em 0.1em 0.2em;
+  color: white;
+  padding: 21px;
+  border-radius: 0.5em;
+}
+
+#navegacion li {
+  display: inline-block;
+  background-color: #7d3c98;
+  color: white;
+}
+
+#navegacion li a:hover {
+  background: #2d3e50;
+  color: #f5f8fa;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+#pie {
+  background-color: #7d3c98;
+  clear: both;
+  margin-top: 30px;
+  height: 150px;
+  border-radius: 0.5em 0.5em 1.5em 1.5em;
+  margin: auto;
+  text-align: center;
+  padding-top: 20px;
+}
+
+#finpagina {
+  margin-top: 30px;
+}
+
+#cont {
+  margin: auto;
+  min-height: 500px;
+}
+
+h2 {
+  color: #cbd6e2;
+  font: normal 16px arial;
+}
+
+ul li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#barralateral ul li {
+  padding-top: 10px;
+}
+
+#derechos {
+  color: black;
+}

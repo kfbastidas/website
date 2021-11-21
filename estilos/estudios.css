@@ -1,0 +1,72 @@
+#estudios {
+  background: #2d3e50;
+}
+
+#barralateral {
+  padding-top: 10px;
+  float: right;
+  width: 15%;
+  background-color: #ffffff;
+  color: black;
+  border-radius: 0.5em;
+  margin-top: 10px;
+  margin-left: 30px;
+  text-decoration: none;
+  text-decoration-skip: none;
+}
+
+#cont {
+  margin-top: 15px;
+  margin-left: 70px;
+}
+
+#pie {
+  margin-top: 40px;
+}
+
+#contenidoPrin {
+  padding-top: 20px;
+  width: 80%;
+  float: left;
+  background-color: #ffffff;
+}
+
+#articulo1 #titulo {
+  font-size: 20px;
+}
+
+#titulo {
+  text-align: center;
+}
+
+.tftable {
+  font-size: 15px;
+  color: #333333;
+  border-width: 1px;
+  border-collapse: collapse;
+  border: 1px;
+  width: 100%;
+}
+
+.tftable th {
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #d11ab3d3;
+  border-width: 1px;
+  padding: 8px;
+  border-style: solid;
+  text-align: center;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.tftable tr {
+  background-color: #ffffff;
+}
+
+.tftable td {
+  font-size: 15px;
+  border-width: 1px;
+  padding: 8px;
+  border-style: solid;
+  border-color: #729ea5;
+}

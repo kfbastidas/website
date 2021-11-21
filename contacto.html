@@ -3,55 +3,88 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
         <meta name="description" content="Mi web personal"/>
-        <meta name="keywords" content="Ejercicios"/>
+        <meta name="keywords" content="Autobiografía"/>
         
-        <title>Ejercicios JavaScript</title>
-
-        <link rel="stylesheet" href="estilos/index.css"/>
+        <title>Mi sitio web</title>
+        <link rel="stylesheet" href="estilos/default.css"/>
+        <link rel="stylesheet" href="estilos/contacto.css"/>
     </head>
     <body>
         <header id="cabecera">
-            <br><br><h4>MI SITIO WEB</h4>
+            <p>BIENVENIDOS A MI PAGINA WEB</p>
         </header>
-        <nav>
-            <ul class="navegacionPrin">
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="estudios.html">Estudios</a></li>
-                <li><a href="proyectos.html">Proyecto</a></li>
+        <nav id="navegacion">
+            <ul>
+                <li><a id="inicio" href="index.html">Inicio</a></li>
+                <li><a href="estudios.html">Estudios académicos</a></li>
+                <li><a href="proyectos.html">Proyectos</a></li>
                 <li><a href="pasatiempos.html">Pasatiempos</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
+                <li><a id="contacto" href="contacto.html">Contacto</a></li>
             </ul>
         </nav>
         <section id="cont">
-            <section id="contacto">
+            <section id="contenidoPrin">
                 <article id="articulo1">
                     <header id="titulo">
-                        <br>
-                        <h3>Contacto</h3>
-                    </header>
-
-                    <div>
-                        <label for="nombre" class="form-label">Nombres:</label>
-                        <input type="text" id="nombre" class="form-input" placeholder="Escriba sus Nombres">
-                        <label for="apellido" class="form-label">Apellidos:</label>
-                        <input type="text" id="apellido" class="form-input" placeholder="Escriba sus Apellidos">
-                        <label for="correo" class="form-label">E-mail:</label>
-                        <input type="text" id="correo" class="form-input" placeholder="Escriba su E-mail">
-                        <label for="mensaje" class="form-label">Mensaje:</label>
-                        <textarea id="mensaje" class="form-textarea" placeholder="Escriba el mensaje"></textarea> 
-                        <input type="submit" class="btn-sumit" value="ENVIAR">
-                    </div>
-                    
-                    
+                        <p>Contacto </p>
+                    </header>   
                 </article>
+                <div class="container">
+                    <form action="#">
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="fname"><b>Nombres:</b></label>
+                            </div>
+                            <div class="col-75">
+                                <input type="text" id="fname" name="firstname" placeholder="Tus nombres completos..">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="lname"><b>Correo:</b></label>
+                            </div>
+                            <div class="col-75">
+                                <input type="text" id="lname" name="lastname" placeholder="Tu Correo..">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="subject"><b>Mensaje:</b></label>
+                            </div>
+                            <div class="col-75">
+                                <textarea id="subject" name="subject" placeholder="Dejame saber con un mensaje o comentario que te parecio el sitio web.." style="height:200px"></textarea>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <input type="submit" value="Enviar">
+                        </div>
+                    </form>
+                </div>
             </section>
+            <aside id="barralateral">
+                
+                <blockquote>
+                    <details>
+                        <summary>CATEGORÍAS</summary>
+                        <ul>
+                            <li>
+                                <p><a href="contacto.html">Contacto.</a></p>
+                            </li>
+                        </ul>
+                        
+                    </details>
+                </blockquote>
+                
+            </aside>
         </section>
-        </section>
-        <footer id= "piePrin">
-            <br><br><h2>Copyright © 2021 - Nelly Yohana Bambague</h2>
-            <h2>Universidad del Cauca</h2>
-            <a href="#"><img src="archivos/face.png" with="25" height="25" href="google.com"/></a>
+        <footer id= "pie">
+            <a href="https://www.facebook.com/profile.php?id=100017843295757"><img src="archivos/face.png" with="30" height="30" href="google.com"/></a>
             <br>
+            <h2>Números de celular: 3184582025 - 3027088909</h2>
+            <br>
+            <address>Popayán, Cauca</address>
+            <small id="derechosautor">&copy; Derechos - Kevtih Felipe Bastidas Chilito</small>
         </footer>
+        <div id="finpagina"></div>
     </body>
 </html>

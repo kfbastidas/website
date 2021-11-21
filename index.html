@@ -3,59 +3,94 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
         <meta name="description" content="Mi web personal"/>
-        <meta name="keywords" content="Ejercicios"/>
+        <meta name="keywords" content="Autobiografía"/>
         
-        <title>Ejercicios JavaScript</title>
-
+        <title>Mi sitio web</title>
+        <link rel="stylesheet" href="estilos/default.css"/>
         <link rel="stylesheet" href="estilos/index.css"/>
     </head>
     <body>
         <header id="cabecera">
-            <br><br><h4>MI SITIO WEB</h4>
+            <p>BIENVENIDOS A MI PAGINA WEB</p>
         </header>
-        <nav>
-            <ul class="navegacionPrin">
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="estudios.html">Estudios</a></li>
-                <li><a href="proyectos.html">Proyecto</a></li>
+        <nav id="navegacion">
+            <ul>
+                <li><a id="inicio" href="index.html">Inicio</a></li>
+                <li><a href="estudios.html">Estudios académicos</a></li>
+                <li><a href="proyectos.html">Proyectos</a></li>
                 <li><a href="pasatiempos.html">Pasatiempos</a></li>
                 <li><a href="contacto.html">Contacto</a></li>
             </ul>
         </nav>
         <section id="cont">
-            <section id="barralateral">
-                <div id="imagenpersonal">
-                    <img src="archivos/fotopersonal.png" width="250px" height="250px"/>
-                </div>
-            </section>
-            
             <section id="contenidoPrin">
+
+                <section id="imagen">
+                    <ul class="slider">
+                        <li id="slide1">
+                            <img src="archivos/img1.jpg" style="border: black solid 1px;"/>
+                        </li>
+                        <li id="slide2">
+                            <img src="archivos/img2.jpg" style="border: black solid 1px;"/>
+                        </li>
+                        <li id="slide3">
+                            <img src="archivos/img3.jpg" style="border: black solid 1px;"/>
+                        </li>
+                        <li id="slide4">
+                            <iframe width="560" height="300" src="https://www.youtube.com/embed/Tf3QfM2kV1Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </li>
+                        
+                    </ul>
+                    <ul class="menu">
+                        <li>
+                            <a href="#slide1">1</a>
+                        </li>
+                        <li>
+                            <a href="#slide2">2</a>
+                        </li>
+                        <li>
+                            <a href="#slide3">3</a>
+                        </li>
+                        <li>
+                            <a href="#slide4">4</a>
+                        </li>
+                    </ul>
+                </section>
                 <article id="articulo1">
                     <header id="titulo">
-                        <h3>Informacion</h3>
+                        <h3>Informacion sobre mí.</h3>
                     </header>
-                    <p>
-                        Soy Nelly Yohana Bambague Dorado, vivo en Popayán, pero soy oriunda del Municipio de Bolívar Cauca, más exactamente en el corregimiento de la Carbonera, donde nací y viví la mayor parte de mi vida, en este pequeño pueblo realicé mis estudios de básica primaria, secundaria y bachillerato en la Institución Educativa Agropecuaria La Carbonera.
-                    </p>
-
-                    <p>
-                        En el año 2011 llegue a la ciudad de Popayán para continuar con mis estudios realizando un técnico en Ingles e Investigación Judicial en el instituto técnico superar, y actualmente me encuentro en la Universidad del cauca cursando séptimo semestre. 5 de marzo del 2013, fecha inolvidable en donde conocí la verdadera felicidad, conocí verdaderamente el amor incondicional, desde ese día mi hijo es el motor de mi vida, aquello por lo que me levanto cada mañana, la inspiración que me hace enfrentarme a la vida.
-                    </p>
-                    <p>
-                        La mayor parte de mi vida ha sido algo inexplicable, a pesar de eso no me he dejado vencer. Mis padres son oriundos de Bolívar cauca, ambos de raíces campesinas, son personas humildes, pero con un corazón enorme, les apasiona la educación y el querer que sus 3 hijas se superen y sean profesionales en un futuro.
-                    </p>
-                    <br><br><br>
-                    <!--<footer>
-                        <p>comentarios de la noticia</p>
-                    </footer>-->
+                    <p>Mi nombre es Kevith Felipe Bastidas Chilito, naci en Popayán, Cauca, Colombia, tengo 22 años de edad y actualmente estoy cursando VII semestre de Ingeniería de Sistemas en la Universidad del Cauca.</p>
+                    <p>Durante mi niñez y parte de mi juventud he vivido con mi familia, que la conforman 3 hermanas y 2 hermanos.</p>
+                    <p>En cuanto a mi educación, comencé la primaria y termine mi bachillerato en la escuela Carlos Mario Simmonds, graduandome en el año 2017. Posterior a esto estoy realizando la carrera de Ingeniería de Sistemas en la Universidad del Cauca.
+                    <p>En cuanto a mis gustos personales, me encanta escuchar música variada como: Música clásica, Metal, Pop, Salsa y Anime song, también ir a cine con mi novia, salir con mis amigos a montar bicicleta y ver anime.</p>
+                    <p>Mis planes a futuro, en primera instancia es graduarme como un reconocido Ingeniero de Sistemas, además a largo plazo mis metas son de seguir estudiando, siempre aprender, adquirir nuevos conocimientos y experiencia para crear mi propia empresa.</p>
                 </article>
             </section>
+            <aside id="barralateral">
+                
+                <blockquote>
+                    <details>
+                        <summary>CATEGORÍAS</summary>
+                        <ul>
+                            <li>
+                                <p><a href="index.html">Sobre mí...</a></p>
+                            </li>
+                        </ul>
+                        
+                    </details>
+                </blockquote>
+                
+            </aside>
         </section>
-        <footer id= "piePrin">
-            <br><br><h2>Copyright © 2021 - Nelly Yohana Bambague</h2>
-            <h2>Universidad del Cauca</h2>
-            <a href="#"><img src="archivos/face.png" with="25" height="25" href="google.com"/></a>
+        <footer id= "pie">
+            <a href="https://www.facebook.com/profile.php?id=100017843295757"><img src="archivos/face.png" with="30" height="30" href="google.com"/></a>
             <br>
+            <h2>Números de celular: 3184582025 - 3027088909</h2>
+            <br>
+            <address>Popayán, Cauca</address>
+            <small id="derechosautor">&copy; Derechos - Kevtih Felipe Bastidas Chilito</small>
         </footer>
+        <div id="finpagina"></div>
     </body>
 </html>

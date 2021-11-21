@@ -3,63 +3,100 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
         <meta name="description" content="Mi web personal"/>
-        <meta name="keywords" content="Ejercicios"/>
+        <meta name="keywords" content="Autobiografía"/>
         
-        <title>Ejercicios JavaScript</title>
+        <title>Mi sitio web</title>
 
-        <link rel="stylesheet" href="estilos/index.css"/>
+        <link rel="stylesheet" href="estilos/default.css"/>
+        <link rel="stylesheet" href="estilos/proyectos.css"/>
     </head>
     <body>
         <header id="cabecera">
-            <br><br><h4>MI SITIO WEB</h4>
+            <p>BIENVENIDOS A MI PAGINA WEB</p>
         </header>
-        <nav>
-            <ul class="navegacionPrin">
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="estudios.html">Estudios</a></li>
-                <li><a href="proyectos.html">Proyecto</a></li>
+        <nav id="navegacion">
+            <ul>
+                <li><a id="inicio" href="index.html">Inicio</a></li>
+                <li><a id="estudios" href="estudios.html">Estudios académicos</a></li>
+                <li><a id="proyectos" href="proyectos.html">Proyectos</a></li>
                 <li><a href="pasatiempos.html">Pasatiempos</a></li>
                 <li><a href="contacto.html">Contacto</a></li>
             </ul>
         </nav>
         <section id="cont">
-            <aside id="barralateral">
-                <li><a href="proyectos.html">Proyectos Academicos</a></li>
-                <li><a href="proyectossociales.html">Proyectos Sociales</a></li>
-                <li><a href="proyectosnegocio.html">Proyectos De Negocio</a></li>
-            </aside>
             <section id="contenidoPrin">
-                <article id="articulo1">
+                <article class="articulo">
                     <header id="titulo">
-                        <h3>Proyectos Academicos</h3>
-                    </header>
-                    
+                        <h3>Proyectos Sociales</h3>
+                    </header>   
                     <ul>
-						<li>
-                            <p>
-                                La contaminación a los ríos y quebradas, fue el problema sobre el cual trabajamos un proyecto en el año 2010, en nuestra institución educativa con el fin de ayudar a disminuir con este daño a nuestro ambiente, haciendo charlas y sacando días para hacer limpieza a los caudales de agua, con la comunidad en general.
+                        <li>
+                            <b class="tituloparrafo">Voluntarios con animales: </b>
+                            
+                            <p class="parrafo">
+                                Brinda los cuidados y seguridades en este centro de rescate animal. Además conecta con la selva y los locales de la comunidad, a cambio de tres comidas, excursiones grátis y clases de idiomas.
                             </p>
-						</li>
-						<li> 
-							<p>
-								Graduarme de mi pregrado es el proyecto más cercano por el cual estoy luchando día tras día, pues quiero ser una buen ingeniera de sistemas y poder dar lo mejor de mí.
-							</p>
-					    </li>
-					    <li> 
-					    	<p>
-					    		Seguridad en redes, es el área por donde pienso orientar mi carrera y para ello voy a realizar mi nivel de posgrado enfatizado en dicha área.
-					    	</p>
-					    </li>
+                        </li>
+                        <br>    
+                        <li>
+                            <b class="tituloparrafo">Enseñar, aprender y compartir: </b>
+                            
+                            <p class="parrafo">
+                                Enseñar ya tiene implicado en si el acto de aprender. Es un proceso de ida y vuelta, producido a través de un encuentro con una buena comunicación entre dos o más personas. Aprender significa construir conocimiento, y hacerlo cuerpo a partir de vivenciar una experiencia.
+                            </p>
+                        </li>
+                    </ul>
+                </article>
+                <article class="articulo">
+                    <header id="titulo">
+                        <h3>Proyectos de Negocio</h3>
+                    </header>   
+                    <ul>
+                        <li>
+                            <b class="tituloparrafo"><br> Desarrollar aplicaciones móviles:</b>
+                                
+                            <p class="parrafo">
+                                El crecimiento en el mercado es muy rapido, dado el uso que se les puede dar: desde compras hasta seguimiento a un seguro médico y más. Cada vez son más las aplicaciones, abarcando cada necesidad y facilitando la vida de los usuarios con apenas unos cuantos clics.
+                            </p>
+                        </li>
+                        <li>
+                            <br>
+                            <b class="tituloparrafo">Billeteras móviles:</b>
+                                
+                            <p class="parrafo">
+                                Estas plataformas agilizan transacciones y más empresas la quieren, por lo que no sería descabellado invertir en software que permiten pagar de manera electrónica.
+                            </p>
+                        </li>
                     </ul>
                 </article>
             </section>
+            <aside id="barralateral">
+                
+                <blockquote>
+                    <details>
+                        <summary>CATEGORÍAS</summary>
+                        <ul>
+                            <li>
+                                <p><a href="proyectos.html">Proyectos Sociales</a></p>
+                            </li>
+                            <li>
+                                <p><a href="proyectos_academicos.html">Proyectos Academicos</a></p>
+                            </li>
+                        </ul>
+                        
+                    </details>
+                </blockquote>
+                
+            </aside>
         </section>
-        </section>
-        <footer id= "piePrin">
-            <br><br><h2>Copyright © 2021 - Nelly Yohana Bambague</h2>
-            <h2>Universidad del Cauca</h2>
-            <a href="#"><img src="archivos/face.png" with="25" height="25" href="google.com"/></a>
+        <footer id= "pie">
+            <a href="https://www.facebook.com/profile.php?id=100017843295757"><img src="archivos/face.png" with="30" height="30" href="google.com"/></a>
             <br>
+            <h2>Números de celular: 3184582025 - 3027088909</h2>
+            <br>
+            <address>Popayán, Cauca</address>
+            <small id="derechosautor">&copy; Derechos - Kevtih Felipe Bastidas Chilito</small>
         </footer>
+        <div id="finpagina"></div>
     </body>
 </html>

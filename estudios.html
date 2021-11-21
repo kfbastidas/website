@@ -3,99 +3,80 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
         <meta name="description" content="Mi web personal"/>
-        <meta name="keywords" content="Ejercicios"/>
+        <meta name="keywords" content="Autobiografía"/>
         
-        <title>Ejercicios JavaScript</title>
+        <title>Mi sitio web</title>
 
-        <link rel="stylesheet" href="estilos/index.css"/>
+        <link rel="stylesheet" href="estilos/default.css"/>
+        <link rel="stylesheet" href="estilos/estudios.css"/>
     </head>
     <body>
         <header id="cabecera">
-            <br><br><h4>MI SITIO WEB</h4>
+            <p>BIENVENIDOS A MI PAGINA WEB</p>
         </header>
-        <nav>
-            <ul class="navegacionPrin">
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="estudios.html">Estudios</a></li>
-                <li><a href="proyectos.html">Proyecto</a></li>
+        <nav id="navegacion">
+            <ul>
+                <li><a id="inicio" href="index.html">Inicio</a></li>
+                <li><a id="estudios" href="estudios.html">Estudios académicos</a></li>
+                <li><a href="proyectos.html">Proyectos</a></li>
                 <li><a href="pasatiempos.html">Pasatiempos</a></li>
                 <li><a href="contacto.html">Contacto</a></li>
             </ul>
         </nav>
         <section id="cont">
-            <aside id="barralateral">
-                <div id="imagenesestudio">
-                    <img src="https://portal.unicauca.edu.co/versionP/sites/default/files/images/HorizontalOK.jpg" width="250px" height="200px"/>
-                </div>
-            </aside>
             <section id="contenidoPrin">
                 <article id="articulo1">
                     <header id="titulo">
-                        <h3>Estudios</h3>
-                    </header>
-                <table>
-                    <thead>
-                        <tr>
-                            <th>#</th>
-                            <th>Educacion</th>
-                            <th>Curso</th>
-                            <th>Nombre de la institucion</th>
-                            <th>Año</th>
-                        </tr>
-                    </thead>
-                        <tr>
-                            <td>1</td>
-                            <td>Basica Primaria</td>
-                            <td>1°-5°</td>
-                            <td>Rural Mixta Carbonera Alta.</td>
-                            <td>2005</td>
-                        </tr>
-                        <tr>
-                            <td>2</td>
-                            <td>Basica Secundaria</td>
-                            <td>6°-11°</td>
-                            <td> I. E. Agropecuaria La Carbonera</td>
-                            <td>2010</td>
-                        </tr>
-                        <tr>
-                            <td>3</td>
-                            <td>Curso</td>
-                            <td>Tecnico En Idiomas Ingles</td>
-                            <td>Instrito Tecnico Superar</td>
-                            <td>2013</td>
-                        </tr>
-                        <tr>
-                            <td>4</td>
-                            <td>Curso</td>
-                            <td>Investigacion Judicial</td>
-                            <td>Instrito Tecnico Superar</td>
-                            <td>2013</td>
-                        </tr>
-                        <tr>
-                            <td>5</td>
-                            <td>Curso</td>
-                            <td>Tecnico En Sistemas</td>
-                            <td>Instrito Tecnico Superar</td>
-                            <td>2013</td>
-                        </tr>
-                        <tr>
-                            <td>6</td>
-                            <td>Educacion Superior</td>
-                            <td>Universidad del Cauca (Popayán, Cauca)</td>
-                            <td>7 Semestres</td>
-                            <td>2016</td>
-                        </tr>
-                </table>
-                    
+                        <h3>Educación</h3>
+                    </header>   
+                    <table class="tftable">
+                        <tr><th>#</th><th>Educación </th><th>Titulo o Curso</th><th>Nombre de la institución</th><th>Año</th></tr>
+
+                        <tr><td>1</td><td>Primaria</td><td>Educación Primaria</td><td>CARLOS MARIO SIMMONDS</td><td>2011</td></tr>
+                        
+                        <tr><td>2</td><td>Bachillerato</td><td>Educación Secundaria</td><td>CARLOS MARIO SIMMONDS</td><td>2017</td></tr>
+
+                        <tr><td>3</td><td>Curso Virtual</td><td>ESTRUCTURA DEL LENGUAJE DE PROGRAMACION C++ (NIVEL I)</td><td>SENA</td><td>2018</td></tr>
+
+                        <tr><td>4</td><td>Curso Virtual</td><td>MODULOS, ESTRUCTURA DE ALMACENAMIENTO Y POO UTILIZANDO EL LENGUAJE DE PROGRAMACION C++ (NIVEL II)</td><td>SENA</td><td>2018</td></tr>
+
+                        <tr><td>5</td><td>Curso Virtual</td><td>USO DE CLASES, OBJETOS, METODOS Y ARCHIVOS SECUENCIALES EN POO CON LENGUAJE DE PROGRAMACION C++ (NIVEL III)</td><td>SENA</td><td>2019</td></tr>
+
+                        <tr><td>6</td><td>Curso Virtual</td><td>DISEÑO DE CASOS DE USO.</td><td>SENA</td><td>2019</td></tr>
+
+                        <tr><td>7</td><td>Curso Virtual</td><td>PRINCIPIOS DEL ANALISIS Y DISEÑO ORIENTADO A OBJETOS, UTILIZANDO EL ESTANDAR UML</td><td>SENA</td><td>2019</td></tr>
+
+                        <tr><td>8</td><td>Superior</td><td>VII semestre ingenieria de sistemas</td><td>UNIVERSIDAD DEL CAUCA</td><td>2018</td></tr>
+                    </table>
                 </article>
             </section>
+            <aside id="barralateral">
+                
+                <blockquote>
+                    <details>
+                        <summary>CATEGORÍAS</summary>
+                        <ul>
+                            <li>
+                                <p><a href="estudios.html">Educación</a></p>
+                            </li>
+                            <li>
+                                <p><a href="estudios_idiomas.html">Idiomas</a></p>
+                            </li>
+                        </ul>
+                        
+                    </details>
+                </blockquote>
+                
+            </aside>
         </section>
-        </section>
-        <footer id= "piePrin">
-            <br><br><h2>Copyright © 2021 - Nelly Yohana Bambague</h2>
-            <h2>Universidad del Cauca</h2>
-            <a href="#"><img src="archivos/face.png" with="25" height="25" href="google.com"/></a>
+        <footer id= "pie">
+            <a href="https://www.facebook.com/profile.php?id=100017843295757"><img src="archivos/face.png" with="30" height="30" href="google.com"/></a>
             <br>
+            <h2>Números de celular: 3184582025 - 3027088909</h2>
+            <br>
+            <address>Popayán, Cauca</address>
+            <small id="derechosautor">&copy; Derechos - Kevtih Felipe Bastidas Chilito</small>
         </footer>
+        <div id="finpagina"></div>
     </body>
 </html>
