@@ -52,10 +52,10 @@
 }
 
 #barralateral {
-  background-color: #ffffff;
+  background-color: #f5f8fa;
   color: black;
   float: left;
-  padding: 15px;
+  padding-top: 0px;
   border-radius: 0.5em;
   margin-top: 20px;
   margin-left: 30px;
@@ -116,7 +116,7 @@
 
 #imagenpersonal {
   float: left;
-  padding: 60px;
+  padding-top: 40px;
 }
 
 #imagen2 {
